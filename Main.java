@@ -8,5 +8,13 @@ public class Main {
     System.out.println("find median  " + fm.find_median(v));
     System.out.println("find median " + fm.find_median(x));
 
+    ValueEqualToIndex vEqualToIndex = new ValueEqualToIndex();
+    System.out.println(vEqualToIndex.valueEqualToIndex(x, 5));
+
+    JavaInheritance javaInheritance = new JavaInheritance();
+    System.out.println(javaInheritance.task(384, 887));
+
+    
+
   }
 }
